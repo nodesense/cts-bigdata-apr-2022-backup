@@ -28,3 +28,21 @@ Press Enter for location
 Press Yes for Conda init
 
 
+# install Jupyter
+
+```
+pip install jupyterlab
+```
+
+
+# start jupyter
+
+```
+jupyter lab --ip=*
+```
+
+notedown the url listed by the command output
+
+Open firefox in ubuntu and paste the url with token
+
+
