@@ -66,7 +66,7 @@ ping ubuntu-virtual-machine
 # start jupyter
 
 ```
-jupyter lab --ip=*
+jupyter lab --no-browser --ip="0.0.0.0"
 ```
 
 notedown the url listed by the command output
