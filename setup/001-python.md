@@ -36,6 +36,9 @@ pip install jupyterlab
 
 # disable ubuntu firewall
 
+```
+sudo ufw disable
+```
 
 # set windows host name to linux
 
