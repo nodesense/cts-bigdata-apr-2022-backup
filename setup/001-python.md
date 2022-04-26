@@ -36,19 +36,34 @@ pip install jupyterlab
 
 # disable ubuntu firewall
 
+open terminal
+
 ```
 sudo ufw disable
 ```
 
+# check linux ip
+
+open terminal 
+
+notedown the ip address
+
+```
+ifconfig 
+```
+
+
+
 # set windows host name to linux
 
 
-open command prompt 
+open command prompt in windows
 
+```
 notepad C:\Windows\System32\Drivers\etc\hosts
+```
 
-
-paste below
+paste below, modify ip address as shown in ifconfig in linux terminal
 
 ```
 192.168.174.129 ubuntu-virtual-machine
