@@ -34,6 +34,31 @@ Press Yes for Conda init
 pip install jupyterlab
 ```
 
+# disable ubuntu firewall
+
+
+# set windows host name to linux
+
+
+open command prompt 
+
+notepad C:\Windows\System32\Drivers\etc\hosts
+
+
+paste below
+
+```
+192.168.174.129 ubuntu-virtual-machine
+```
+
+save the hosts file
+
+in command prompt 
+
+```
+ping ubuntu-virtual-machine
+```
+
 
 # start jupyter
 
